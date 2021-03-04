@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>喬瑟夫_Chillseph_Chillga大師</title>
+    <script type="text/javascript" src="./jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <div id="gotop">~~~~~~~~~~~~~~~~~
+
+        <script type="text/javascript">
+            $(function() {
+                $("#gotop").click(function() {
+                    jQuery("html,body").animate({
+                        scrollTop: 0
+                    }, 1000);
+                });
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 300) {
+                        $('#gotop').fadeIn("fast");
+                    } else {
+                        $('#gotop').stop().fadeOut("fast");
+                    }
+                });
+            });
+        </script>
+    </div>
+    <img src="./chillseph/background.jpg" alt="" style="height: 200px;width:100%;">
+    <h1 style="text-align: center; font-size: 50px; color:khaki;">Chillga大師</h1>
+
+    <video width="1200" height="800" controls style="margin: 0 20%;">
+        <source src="./video/ChillGa.mp4" type="video/mp4">
+    </video>
+    <h2 style="text-align: center; font-size: 50px;">大家一起來吃素救地球</h2>
+
+    <h2 style="text-align: center; font-size: 50px;">
+        <a href="https://www.youtube.com/playlist?list=PL8DeDNcDgnSfcBDGWMILmJRlh4XT4Z1ly">Body, Spirit, ChillSeph</a>
+    </h2>
+    <h3 style="text-align: end;font-size: 25px;">11 部影片觀看次數：20,930次上次更新日期：2020年9月30日</h3>
+    <h2 style="background-color: rgb(255, 255, 255);font-size: 50px;text-align: center;">
+        <a href="../index.html" style="color: blue;text-decoration:none;">
+            首頁
+        </a>
+
+</body>
+
+</html>

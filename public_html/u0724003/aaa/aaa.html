@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>J-Bao賤葆</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+
+<h2 class="w3-center">J-Bao賤葆(youtuber)</h2>
+<img src="05.png" style="width: 100%">
+<h2 style="background-color: lightblue;font-size: 50px;text-align: center;">
+  <a href="http://192.168.101.58/" style="color: blue;text-decoration:none;">
+    首頁
+</a>
+<a>｜</a>
+  <a href="./1.html" style="color: blue;text-decoration:none;">
+      賤葆
+  </a>
+  <a>｜</a>
+  <a href="./2.html" style="color:red;text-decoration:none;">
+      松鼠
+  </a>
+  <a>｜</a>
+  <a href="./3.html" style="color:khaki;text-decoration:none;">
+      品子
+  </a>
+  <a>｜</a>
+  <a href="./4.html" style="color:rgb(49, 179, 77);text-decoration:none;">
+      晨晨
+  </a>
+</h2>
+<div class="w3-content w3-display-container">
+    <tr><td align="center"><img class="mySlides" src="01.jpg" style="margin: 1% 100% 5% 25%; width: 50%;"></td></tr>
+    <tr><td align="center"><img class="mySlides" src="02.jpg" style="margin: 1% 100% 5% 25%; width: 50%;"></td></tr>
+    <tr><td align="center"><img class="mySlides" src="03.jpg" style="margin: 1% 100% 5% 25%; width: 50%;"></td></tr>
+    <tr><td align="center"><img class="mySlides" src="04.jpg" style="margin: 1% 100% 1% 25%; width: 50%;"></td></tr>
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<font size="4">手做youtuber後期融合約會內容,</font>
+<a href="https://www.youtube.com/watch?v=AIQJLrialRc"><font size="4" color="bule">2019年11月2日以【地獄挑戰】花一個月擦1000面交通反光鏡，用行動守護台灣！</font></a>
+<font size="4">以及</font>
+<a href="https://www.youtube.com/watch?v=q9FQMCVkfPY"><font size="4" color="bule">2019年1月15日【真人版 ▪ 鐵鎚爬山】地獄級挑戰，真的能成功登頂嗎!!?</font></a>
+<font size="4">這2部影片爆紅</font>
+<font size="4">合作夥伴有下面圖片後面3位女生,由左至右分別是松鼠,品子,晨晨,但是頻道前期都是跟一位女生孟琦一起製作,可是後期因某些因素停止合作。</font>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
